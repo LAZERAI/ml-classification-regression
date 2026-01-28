@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from regression_module_v2 import RegressionPipeline
 
-df = pd.read_csv(r"C:\Users\Lazerai\Downloads\Dataset-20260127T101434Z-3-001\Dataset\car_data.csv")
+df = pd.read_csv(r"C:\Users\Lazerai\Downloads\Dataset\car_data.csv")
 
 X = df[['Engine_Size(L)', 'Horsepower', 'Weight(kg)', 'MPG']].values
 y = df['Price($1000)'].values

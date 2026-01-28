@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from classification_module_v2 import ClassificationPipeline
 
-df = pd.read_csv(r"C:\Users\Lazerai\Downloads\Dataset-20260127T101434Z-3-001\Dataset\diabetes2.csv")
+df = pd.read_csv(r"C:\Users\Lazerai\Downloads\Dataset\diabetes2.csv")
 
 X = df.drop('Outcome', axis=1).values
 y = df['Outcome'].values
