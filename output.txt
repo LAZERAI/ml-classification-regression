@@ -1,0 +1,113 @@
+Classification pipeline created: Random Forest
+
+Testing Logistic Regression...
+Classification pipeline created: Logistic Regression
+
+Training Logistic Regression model...
+Training Complete
+   CV Score: 0.9840 (+/- 0.0196)
+
+Evaluating Logistic Regression model...
+ Test Accuracy: 0.9815
+Confusion Matrix:
+[[19  0  0]
+ [ 0 20  1]
+ [ 0  0 14]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     class_0       1.00      1.00      1.00        19
+     class_1       1.00      0.95      0.98        21
+     class_2       0.93      1.00      0.97        14
+
+    accuracy                           0.98        54
+   macro avg       0.98      0.98      0.98        54
+weighted avg       0.98      0.98      0.98        54
+
+
+Testing Decision Tree...
+Classification pipeline created: Decision Tree
+
+Training Decision Tree model...
+Training Complete
+   CV Score: 0.9353 (+/- 0.0411)
+
+Evaluating Decision Tree model...
+ Test Accuracy: 0.9630
+Confusion Matrix:
+[[18  1  0]
+ [ 0 21  0]
+ [ 0  1 13]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     class_0       1.00      0.95      0.97        19
+     class_1       0.91      1.00      0.95        21
+     class_2       1.00      0.93      0.96        14
+
+    accuracy                           0.96        54
+   macro avg       0.97      0.96      0.96        54
+weighted avg       0.97      0.96      0.96        54
+
+
+Testing Random Forest...
+Classification pipeline created: Random Forest
+
+Training Random Forest model...
+Training Complete
+   CV Score: 0.9760 (+/- 0.0196)
+
+Evaluating Random Forest model...
+ Test Accuracy: 0.9815
+Confusion Matrix:
+[[19  0  0]
+ [ 1 20  0]
+ [ 0  0 14]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     class_0       0.95      1.00      0.97        19
+     class_1       1.00      0.95      0.98        21
+     class_2       1.00      1.00      1.00        14
+
+    accuracy                           0.98        54
+   macro avg       0.98      0.98      0.98        54
+weighted avg       0.98      0.98      0.98        54
+
+
+Testing SVM...
+Classification pipeline created: SVM
+
+Training SVM model...
+Training Complete
+   CV Score: 0.9677 (+/- 0.0300)
+
+Evaluating SVM model...
+ Test Accuracy: 0.9815
+Confusion Matrix:
+[[19  0  0]
+ [ 0 21  0]
+ [ 0  1 13]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     class_0       1.00      1.00      1.00        19
+     class_1       0.95      1.00      0.98        21
+     class_2       1.00      0.93      0.96        14
+
+    accuracy                           0.98        54
+   macro avg       0.98      0.98      0.98        54
+weighted avg       0.98      0.98      0.98        54
+
+
+==================================================
+All Results:
+==================================================
+Logistic Regression: 0.9815
+Decision Tree: 0.9630
+Random Forest: 0.9815
+SVM: 0.9815
