@@ -205,3 +205,33 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Internal reference files (not for GitHub)
+INTERNAL_NOTES.md
+START_HERE.md
+START_HERE_FINAL.md
+PROJECT_SUMMARY_FOR_RESUME.md
+GITHUB_SETUP_GUIDE.md
+QUICK_START.md
+QUICK_REFERENCE.md
+QUICK_REFERENCE_UPDATED.md
+DETAILED_EXPLANATION.md
+CODE_COMPARISON.md
+FINAL_SUMMARY.md
+PROJECT_UPDATE.md
+PACKAGE_SUMMARY.md
+COMPLETION_REPORT.md
+INDEX.md
+STUDY_GUIDE.md
+WHAT_IS_PIPELINE.md
+WHY_CALIFORNIA_HOUSING_LOWER.md
+
+# Example/old files
+example_iris_classification.py
+example_iris_regression.py
+classification_example_breast_cancer.py
+regression_example_diabetes.py
+
+# Output files
+*.png
+output.txt
